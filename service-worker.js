@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nycbasic/mini-auth/precache-manifest.0aa9f824d96c06ef350c9ee9c98b88f1.js"
+  "/mini-auth/precache-manifest.00e54977f73df1641605c744388d7f8b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/nycbasic/mini-auth/index.html", {
+workbox.routing.registerNavigationRoute("/mini-auth/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

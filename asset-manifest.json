@@ -1,15 +1,15 @@
 {
-  "main.css": "/nycbasic/mini-auth/static/css/main.28779090.chunk.css",
-  "main.js": "/nycbasic/mini-auth/static/js/main.9edc0ed6.chunk.js",
-  "main.js.map": "/nycbasic/mini-auth/static/js/main.9edc0ed6.chunk.js.map",
-  "static/css/1.034e8be8.chunk.css": "/nycbasic/mini-auth/static/css/1.034e8be8.chunk.css",
-  "static/js/1.d644e896.chunk.js": "/nycbasic/mini-auth/static/js/1.d644e896.chunk.js",
-  "static/js/1.d644e896.chunk.js.map": "/nycbasic/mini-auth/static/js/1.d644e896.chunk.js.map",
-  "runtime~main.js": "/nycbasic/mini-auth/static/js/runtime~main.e906123f.js",
-  "runtime~main.js.map": "/nycbasic/mini-auth/static/js/runtime~main.e906123f.js.map",
-  "static/css/1.034e8be8.chunk.css.map": "/nycbasic/mini-auth/static/css/1.034e8be8.chunk.css.map",
-  "static/css/main.28779090.chunk.css.map": "/nycbasic/mini-auth/static/css/main.28779090.chunk.css.map",
-  "index.html": "/nycbasic/mini-auth/index.html",
-  "precache-manifest.0aa9f824d96c06ef350c9ee9c98b88f1.js": "/nycbasic/mini-auth/precache-manifest.0aa9f824d96c06ef350c9ee9c98b88f1.js",
-  "service-worker.js": "/nycbasic/mini-auth/service-worker.js"
+  "main.css": "/mini-auth/static/css/main.28779090.chunk.css",
+  "main.js": "/mini-auth/static/js/main.94424256.chunk.js",
+  "main.js.map": "/mini-auth/static/js/main.94424256.chunk.js.map",
+  "static/css/1.034e8be8.chunk.css": "/mini-auth/static/css/1.034e8be8.chunk.css",
+  "static/js/1.d644e896.chunk.js": "/mini-auth/static/js/1.d644e896.chunk.js",
+  "static/js/1.d644e896.chunk.js.map": "/mini-auth/static/js/1.d644e896.chunk.js.map",
+  "runtime~main.js": "/mini-auth/static/js/runtime~main.5bea8be4.js",
+  "runtime~main.js.map": "/mini-auth/static/js/runtime~main.5bea8be4.js.map",
+  "static/css/main.28779090.chunk.css.map": "/mini-auth/static/css/main.28779090.chunk.css.map",
+  "static/css/1.034e8be8.chunk.css.map": "/mini-auth/static/css/1.034e8be8.chunk.css.map",
+  "index.html": "/mini-auth/index.html",
+  "precache-manifest.00e54977f73df1641605c744388d7f8b.js": "/mini-auth/precache-manifest.00e54977f73df1641605c744388d7f8b.js",
+  "service-worker.js": "/mini-auth/service-worker.js"
 }
