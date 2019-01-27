@@ -1,15 +1,16 @@
 {
-  "main.css": "/mini-auth/static/css/main.28779090.chunk.css",
-  "main.js": "/mini-auth/static/js/main.94424256.chunk.js",
-  "main.js.map": "/mini-auth/static/js/main.94424256.chunk.js.map",
+  "main.css": "/mini-auth/static/css/main.87d93236.chunk.css",
+  "main.js": "/mini-auth/static/js/main.c439a61b.chunk.js",
+  "main.js.map": "/mini-auth/static/js/main.c439a61b.chunk.js.map",
   "static/css/1.034e8be8.chunk.css": "/mini-auth/static/css/1.034e8be8.chunk.css",
   "static/js/1.d644e896.chunk.js": "/mini-auth/static/js/1.d644e896.chunk.js",
   "static/js/1.d644e896.chunk.js.map": "/mini-auth/static/js/1.d644e896.chunk.js.map",
   "runtime~main.js": "/mini-auth/static/js/runtime~main.5bea8be4.js",
   "runtime~main.js.map": "/mini-auth/static/js/runtime~main.5bea8be4.js.map",
-  "static/css/main.28779090.chunk.css.map": "/mini-auth/static/css/main.28779090.chunk.css.map",
+  "static/css/main.87d93236.chunk.css.map": "/mini-auth/static/css/main.87d93236.chunk.css.map",
+  "static/media/index.css": "/mini-auth/static/media/wood.cba42f3d.jpg",
   "static/css/1.034e8be8.chunk.css.map": "/mini-auth/static/css/1.034e8be8.chunk.css.map",
   "index.html": "/mini-auth/index.html",
-  "precache-manifest.00e54977f73df1641605c744388d7f8b.js": "/mini-auth/precache-manifest.00e54977f73df1641605c744388d7f8b.js",
+  "precache-manifest.222bc350136129e733f69dcb95d38f34.js": "/mini-auth/precache-manifest.222bc350136129e733f69dcb95d38f34.js",
   "service-worker.js": "/mini-auth/service-worker.js"
 }
