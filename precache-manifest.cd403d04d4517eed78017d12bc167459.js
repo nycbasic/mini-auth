@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/mini-auth/static/js/runtime~main.5bea8be4.js"
   },
   {
-    "revision": "c5883dedd7fc29867523",
-    "url": "/mini-auth/static/js/main.c5883ded.chunk.js"
+    "revision": "7582ad0b73e9e6421afc",
+    "url": "/mini-auth/static/js/main.7582ad0b.chunk.js"
   },
   {
     "revision": "b2b3eaedb74fe6443d47",
     "url": "/mini-auth/static/js/1.b2b3eaed.chunk.js"
   },
   {
-    "revision": "c5883dedd7fc29867523",
+    "revision": "7582ad0b73e9e6421afc",
     "url": "/mini-auth/static/css/main.87d93236.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/mini-auth/static/css/1.034e8be8.chunk.css"
   },
   {
-    "revision": "c2bb98dec568bea19b53b68d58825464",
+    "revision": "c9e677dbd438ebbcd869931297ec703c",
     "url": "/mini-auth/index.html"
   }
 ];
