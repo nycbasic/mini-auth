@@ -1,16 +1,16 @@
 {
   "main.css": "/mini-auth/static/css/main.fff34c85.chunk.css",
-  "main.js": "/mini-auth/static/js/main.4fb080c3.chunk.js",
-  "main.js.map": "/mini-auth/static/js/main.4fb080c3.chunk.js.map",
+  "main.js": "/mini-auth/static/js/main.15d3af75.chunk.js",
+  "main.js.map": "/mini-auth/static/js/main.15d3af75.chunk.js.map",
   "static/css/1.8668f79d.chunk.css": "/mini-auth/static/css/1.8668f79d.chunk.css",
   "static/js/1.61d1f138.chunk.js": "/mini-auth/static/js/1.61d1f138.chunk.js",
   "static/js/1.61d1f138.chunk.js.map": "/mini-auth/static/js/1.61d1f138.chunk.js.map",
   "runtime~main.js": "/mini-auth/static/js/runtime~main.5bea8be4.js",
   "runtime~main.js.map": "/mini-auth/static/js/runtime~main.5bea8be4.js.map",
   "static/media/index.css": "/mini-auth/static/media/wood.cba42f3d.jpg",
-  "static/css/main.fff34c85.chunk.css.map": "/mini-auth/static/css/main.fff34c85.chunk.css.map",
   "static/css/1.8668f79d.chunk.css.map": "/mini-auth/static/css/1.8668f79d.chunk.css.map",
+  "static/css/main.fff34c85.chunk.css.map": "/mini-auth/static/css/main.fff34c85.chunk.css.map",
   "index.html": "/mini-auth/index.html",
-  "precache-manifest.cf347bdb0277dca6a6e7fb4dfcc56dfd.js": "/mini-auth/precache-manifest.cf347bdb0277dca6a6e7fb4dfcc56dfd.js",
+  "precache-manifest.82d71b745adadae7f23c8907ff2f65c0.js": "/mini-auth/precache-manifest.82d71b745adadae7f23c8907ff2f65c0.js",
   "service-worker.js": "/mini-auth/service-worker.js"
 }
