@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://auth-mini-server.herokuapp.com",
+  "proxy": "https://mini-auth-app-server.onrender.com",
   "homepage": "https://nycbasic.github.io/mini-auth",
   "dependencies": {
     "axios": "^0.18.0",
