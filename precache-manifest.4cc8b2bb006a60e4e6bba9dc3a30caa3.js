@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "730d942f165fbc74c41e",
+    "revision": "d24eade923ec3e9693a4",
     "url": "/mini-auth/static/css/main.fff34c85.chunk.css"
   },
   {
-    "revision": "730d942f165fbc74c41e",
-    "url": "/mini-auth/static/js/main.730d942f.chunk.js"
+    "revision": "d24eade923ec3e9693a4",
+    "url": "/mini-auth/static/js/main.d24eade9.chunk.js"
   },
   {
     "revision": "61d1f138068fe1378369",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/mini-auth/static/media/wood.cba42f3d.jpg"
   },
   {
-    "revision": "738429380298d301e782e128c9ff8aef",
+    "revision": "cba8cbb94f24d115133c4bfec506d7e8",
     "url": "/mini-auth/index.html"
   }
 ];

@@ -1,7 +1,7 @@
 {
   "main.css": "/mini-auth/static/css/main.fff34c85.chunk.css",
-  "main.js": "/mini-auth/static/js/main.730d942f.chunk.js",
-  "main.js.map": "/mini-auth/static/js/main.730d942f.chunk.js.map",
+  "main.js": "/mini-auth/static/js/main.d24eade9.chunk.js",
+  "main.js.map": "/mini-auth/static/js/main.d24eade9.chunk.js.map",
   "static/css/1.8668f79d.chunk.css": "/mini-auth/static/css/1.8668f79d.chunk.css",
   "static/js/1.61d1f138.chunk.js": "/mini-auth/static/js/1.61d1f138.chunk.js",
   "static/js/1.61d1f138.chunk.js.map": "/mini-auth/static/js/1.61d1f138.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/css/main.fff34c85.chunk.css.map": "/mini-auth/static/css/main.fff34c85.chunk.css.map",
   "static/css/1.8668f79d.chunk.css.map": "/mini-auth/static/css/1.8668f79d.chunk.css.map",
   "index.html": "/mini-auth/index.html",
-  "precache-manifest.f939d0826cb3a1ef97b639948864aefb.js": "/mini-auth/precache-manifest.f939d0826cb3a1ef97b639948864aefb.js",
+  "precache-manifest.4cc8b2bb006a60e4e6bba9dc3a30caa3.js": "/mini-auth/precache-manifest.4cc8b2bb006a60e4e6bba9dc3a30caa3.js",
   "service-worker.js": "/mini-auth/service-worker.js"
 }
