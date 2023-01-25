@@ -3,11 +3,9 @@ import JwtDecode from "jwt-decode";
 import { SET_CURRENT_USER, GET_ERRORS, FLASH_MSG } from "./Types";
 import { setAuthHeader } from "../helpers/set-token";
 
-const url = "https://auth-mini-server.herokuapp.com";
-
 export const createUser = (newUser, callback) => dispatch => {
   axios
-    .post(`${url}/api/users/signup`, newUser)
+    .post(`/api/users/signup`, newUser)
     .then(res => {
       const { token } = res.data;
       setAuthHeader(token);
@@ -26,7 +24,7 @@ export const createUser = (newUser, callback) => dispatch => {
 
 export const loginUser = (user, callback) => dispatch => {
   axios
-    .post(`${url}/api/users/login`, user)
+    .post(`/api/users/login`, user)
     .then(res => {
       if (res.data.msg) {
         dispatch({
@@ -51,7 +49,7 @@ export const loginUser = (user, callback) => dispatch => {
 
 export const deleteUser = id => dispatch => {
   axios
-    .delete(`${url}/api/users/${id}`)
+    .delete(`/api/users/${id}`)
     .then(res => {
       setAuthHeader(false);
       localStorage.clear();
