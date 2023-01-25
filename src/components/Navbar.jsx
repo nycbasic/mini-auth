@@ -5,7 +5,6 @@ import { logoutUser } from "../actions/Auth";
 
 class Navbar extends Component {
   render() {
-    console.log(this.props);
     const { isAuthenticated, user } = this.props.auth;
     const { logoutUser, history } = this.props;
     return (
@@ -86,7 +85,7 @@ class Navbar extends Component {
 
 function mapStateToProps(state) {
   return {
-    auth: state.auth
+    auth: state.auth,
   };
 }
 
