@@ -9,7 +9,7 @@ import {
 
 import { clearErrors } from "./Errors";
 import { clearFlashMsg } from "./Flash";
-import { url } from "../helpers/api";
+import {url} from "../helpers/api";
 
 export const resetUser = (email) => (dispatch) => {
   dispatch(clearErrors());
