@@ -4,80 +4,81 @@ import {
   GET_ERRORS,
   VALID_RESET_TOKEN,
   INVALID_RESET_MSG,
-  INVALID_RESET_TOKEN
+  INVALID_RESET_TOKEN,
 } from "./Types";
 
 import { clearErrors } from "./Errors";
 import { clearFlashMsg } from "./Flash";
+import { url } from "../helpers/api";
 
-export const resetUser = email => dispatch => {
+export const resetUser = (email) => (dispatch) => {
   dispatch(clearErrors());
   dispatch(clearFlashMsg());
   axios
-    .post(`/api/users/forgot`, email)
-    .then(res => {
+    .post(`${url}/api/users/forgot`, email)
+    .then((res) => {
       dispatch({
         type: FLASH_MSG,
-        payload: res.data
+        payload: res.data,
       });
     })
-    .catch(err => {
+    .catch((err) => {
       dispatch({
         type: GET_ERRORS,
-        payload: err.response.data
+        payload: err.response.data,
       });
     });
 };
 
-export const loadReset = token => dispatch => {
+export const loadReset = (token) => (dispatch) => {
   axios
-    .get(`/api/users/reset/${token}`)
-    .then(res => {
+    .get(`${url}/api/users/reset/${token}`)
+    .then((res) => {
       const { validToken, expiredToken, msg } = res.data;
       if (validToken) {
         dispatch({
           type: VALID_RESET_TOKEN,
-          payload: validToken
+          payload: validToken,
         });
       } else if (expiredToken) {
         dispatch({
           type: INVALID_RESET_TOKEN,
-          payload: expiredToken
+          payload: expiredToken,
         });
       }
       if (msg) {
         dispatch({
           type: INVALID_RESET_MSG,
-          payload: msg
+          payload: msg,
         });
       }
     })
-    .catch(err => {
+    .catch((err) => {
       dispatch({
         type: GET_ERRORS,
-        payload: err.response.data
+        payload: err.response.data,
       });
     });
 };
 
-export const resetPassword = (newPassword, token, callback) => dispatch => {
+export const resetPassword = (newPassword, token, callback) => (dispatch) => {
   dispatch(clearErrors());
   dispatch(clearFlashMsg());
   axios
-    .post(`/api/users/reset/${token}`, newPassword)
-    .then(res => {
+    .post(`${url}/api/users/reset/${token}`, newPassword)
+    .then((res) => {
       dispatch({
         type: FLASH_MSG,
-        payload: res.data
+        payload: res.data,
       });
     })
     .then(() => {
       callback.push("/login");
     })
-    .catch(err => {
+    .catch((err) => {
       dispatch({
         type: GET_ERRORS,
-        payload: err.response.data
+        payload: err.response.data,
       });
     });
 };

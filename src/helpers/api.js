@@ -1,0 +1,1 @@
+export const url = "https://mini-auth-app-server.onrender.com";

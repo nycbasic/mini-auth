@@ -2,34 +2,35 @@ import axios from "axios";
 import JwtDecode from "jwt-decode";
 import { SET_CURRENT_USER, GET_ERRORS, FLASH_MSG } from "./Types";
 import { setAuthHeader } from "../helpers/set-token";
+import { url } from "../helpers/api";
 
-export const createUser = (newUser, callback) => dispatch => {
+export const createUser = (newUser, callback) => (dispatch) => {
   axios
-    .post(`/api/users/signup`, newUser)
-    .then(res => {
+    .post(`${url}/api/users/signup`, newUser)
+    .then((res) => {
       const { token } = res.data;
       setAuthHeader(token);
       localStorage.setItem("jwt", token);
       dispatch(setCurrentUser(JwtDecode(token)));
       callback.push("/dashboard");
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       dispatch({
         type: GET_ERRORS,
-        payload: err.response.data
+        payload: err.response.data,
       });
     });
 };
 
-export const loginUser = (user, callback) => dispatch => {
+export const loginUser = (user, callback) => (dispatch) => {
   axios
-    .post(`/api/users/login`, user)
-    .then(res => {
+    .post(`${url}/api/users/login`, user)
+    .then((res) => {
       if (res.data.msg) {
         dispatch({
           type: FLASH_MSG,
-          payload: res.data
+          payload: res.data,
         });
       } else {
         const { token } = res.data;
@@ -39,49 +40,49 @@ export const loginUser = (user, callback) => dispatch => {
         callback.push("/dashboard");
       }
     })
-    .catch(err => {
+    .catch((err) => {
       dispatch({
         type: GET_ERRORS,
-        payload: err.response.data
+        payload: err.response.data,
       });
     });
 };
 
-export const deleteUser = id => dispatch => {
+export const deleteUser = (id) => (dispatch) => {
   axios
-    .delete(`/api/users/${id}`)
-    .then(res => {
+    .delete(`${url}/api/users/${id}`)
+    .then((res) => {
       setAuthHeader(false);
       localStorage.clear();
       dispatch({
         type: SET_CURRENT_USER,
-        payload: {}
+        payload: {},
       });
       dispatch({
         type: FLASH_MSG,
-        payload: res.data
+        payload: res.data,
       });
     })
-    .catch(err => {
+    .catch((err) => {
       dispatch({
         type: GET_ERRORS,
-        payload: err.response.data
+        payload: err.response.data,
       });
     });
 };
 
-export const setCurrentUser = user => dispatch => {
+export const setCurrentUser = (user) => (dispatch) => {
   dispatch({
     type: SET_CURRENT_USER,
-    payload: user
+    payload: user,
   });
 };
 
-export const logoutUser = () => dispatch => {
+export const logoutUser = () => (dispatch) => {
   setAuthHeader(false);
   localStorage.clear();
   dispatch({
     type: SET_CURRENT_USER,
-    payload: {}
+    payload: {},
   });
 };
